@@ -15,10 +15,7 @@ import nodejs_logo from './../assets/nodejs.png';
 import react_logo from './../assets/react.png';
 import photoshop_logo from './../assets/photoshop.png';
 import tlogo1 from './../assets/tlogo001.png';
-import tlogo2 from './../assets/tlogo002.png';
-import tlogo3 from './../assets/tlogo003.png';
 import arrow from './../assets/arrow001.png';
-import bg_img01 from './../assets/bg-image001.jpg';
 import moon_icon from './../assets/moonIcon.png';
 import sun_icon from './../assets/sunIcon.png';
 import menu_icon from './../assets/menuIcon.png';
@@ -33,7 +30,6 @@ import mongoDb_icon from './../assets/mongoDbIcon.png';
 import tailwind_icon from './../assets/tailwindcssIcon.png';
 import shopify_icon from './../assets/shopifyIcon.png';
 import wordpress_icon from './../assets/wordpressIcon.png';
-import img_placeholder from './../assets/placeholder.jpg';
 import url_icon from './../assets/urlIcon.png';
 import github_icon from './../assets/githubicon.png';
 import letterwize from './../assets/letterwize.png';
@@ -60,10 +56,7 @@ export const assets = {
     react_logo,
     photoshop_logo,
     tlogo1,
-    tlogo2,
-    tlogo3,
     arrow,
-    bg_img01,
     moon_icon,
     sun_icon,
     menu_icon,
@@ -76,7 +69,6 @@ export const assets = {
     tailwind_icon,
     shopify_icon,
     wordpress_icon,
-    img_placeholder,
     url_icon,
     github_icon,
     letterwize,
