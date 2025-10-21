@@ -16,7 +16,7 @@ const footerLinks = [
     items: [
       {
         label: "LinkedIn",
-        href: "www.linkedin.com/in/tevin-morrison",
+        href: "https://www.linkedin.com/in/tevin-morrison",
         target: "_blank",
       },
       {
