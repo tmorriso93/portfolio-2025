@@ -55,7 +55,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center justify-center scroll-mt-20"
+      className="page-section contact-section min-h-screen flex items-center justify-center scroll-mt-20"
     >
       <div className="px-6">
         <h4 className="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
@@ -63,9 +63,9 @@ const Contact = () => {
         <p className="font-Ovo max-w-150">
           I&apos;m always open to new opportunities, collaborations, or just a
           quick conversation about building great user experiences. Feel free to
-          reach out and I’ll get back to you as soon as possible.
+          reach out and I&apos;ll get back to you as soon as possible.
         </p>
-        <form className="max-w-2xl mx-auto" onSubmit={handleSubmit}>
+        <form className="contact-form max-w-2xl mx-auto" onSubmit={handleSubmit}>
           <div className="grid grid-cols-auto gap-6 mt-10 mb-8">
             <input
               type="text"
@@ -98,7 +98,7 @@ const Contact = () => {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/90 text-white rounded-full mx-auto hover:bg-black duration-500 disabled:cursor-not-allowed disabled:bg-black/60 disabled:hover:bg-black/60"
+            className="contact-button py-3 px-8 w-max flex items-center justify-between gap-2 rounded-full mx-auto transition duration-500 disabled:cursor-not-allowed"
           >
             {isSubmitting ? "Sending..." : "Submit now"}
             <Image src={assets.right_arrow_white} alt="" className="w-4" />

@@ -2,15 +2,15 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
 
-// Header section with Portait and Job Title
-const Header = () => {
+// Header section with Portait & Job Title
+const Header = () => { 
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 pt-4'>
+    <div className='page-section w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 pt-0'>
         <div>
             <Image 
                 src={assets.portrait_toon} 
                 alt='portrait' 
-                className='rounded-b-full w-32 pt-20' 
+                className='rounded-b-full w-32 pt-4' 
             />
         </div>
          <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'
@@ -26,10 +26,9 @@ const Header = () => {
               I build web apps that put user experience first, without overcomplicating the tech. I enjoy shaping early ideas into usable, 
               intuitive interfaces that feel natural to interact with. Watching a concept grow into a polished, working product never gets old.
             </p>
-            <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
+            <div className='buttons flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <a href='#contact'
-                    className='px-10 py-3 border border-white rounded-full bg-black
-                             text-white flex items-center gap-2'
+                    className='contact-button px-10 py-3 border border-white rounded-full flex items-center gap-2'
                     >
                     contact me 
                     <Image 
@@ -40,7 +39,7 @@ const Header = () => {
                 </a>
                 <a href='/Tevin-Morrison-Resume.pdf' 
                     download 
-                    className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'
+                    className='resume-button px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'
                     >
                     my resume 
                     <Image 

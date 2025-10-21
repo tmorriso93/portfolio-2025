@@ -22,7 +22,10 @@ const Skills = () => {
   return (
 
     // Titles for the skills section
-    <div id="skills" className="m-auto px-4 max-w-300 gap-2 space-y-10 h-[50%] pt-10 pb-20 scroll-mt-32 lg:scroll-mt-40">
+    <div
+      id="skills"
+      className="page-section m-auto px-4 w-full max-w-[70%] sm:max-w-[80%] md:max-w-[90%] lg:max-w-[1100px] gap-2 space-y-10 h-[50%] pt-10 pb-20 scroll-mt-32 lg:scroll-mt-40"
+    >
         <h4 className='text-center mb-2 text-lg font-Ovo'>Technology</h4>
         <h2 className='text-center text-5xl font-Ovo'>Skills</h2>
     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-4 font-Ovo ">
@@ -30,14 +33,14 @@ const Skills = () => {
         {skills.map(({ label, icon }) => (
         <li
             key={label}
-            className="border border-gray-300 p-3 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-1 hover:shadow-md bg-white/70 flex items-center gap-3 justify-center max-sm:w-[70%] max-sm:m-auto cursor-pointer"
+            className="surface-card border border-gray-300 p-3 rounded-md transition-transform duration-200 ease-in-out hover:-translate-y-1 hover:shadow-md flex items-center gap-3 justify-center max-sm:w-full max-sm:flex-col max-sm:text-center max-sm:gap-2 cursor-pointer max-sm:max-w-[100%]"
         >
             <Image
               src={icon}
               alt={`${label} icon`}
               className="h-8 w-8 object-contain"
             />
-            <span className="pl-4">{label}</span>
+            <span className="pl-4 max-sm:pl-0 break-words whitespace-normal">{label}</span>
         </li>
         ))}
     </ul>

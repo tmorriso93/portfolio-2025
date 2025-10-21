@@ -91,7 +91,7 @@ const Projects = () => {
           {projectCards.map(({ title, summary, techStack, image, actions }, index) => (
             <article
               key={index}
-              className="surface-card overflow-hidden rounded-lg shadow-[0_10px_30px_rgba(15,23,42,0.08)] backdrop-blur-sm transition hover:-translate-y-2 hover:shadow-[0_20px_45px_rgba(15,23,42,0.12)]"
+              className="projectCard surface-card overflow-hidden rounded-lg shadow-[0_10px_30px_rgba(15,23,42,0.08)] backdrop-blur-sm transition hover:-translate-y-2 hover:shadow-[0_20px_45px_rgba(15,23,42,0.12)]"
             >
               <Image
                 src={image}
@@ -100,12 +100,12 @@ const Projects = () => {
                 priority={index === 0}
               />
               <div className="space-y-4 p-6">
-                <h3 className="text-xl font-semibold text-slate-700">
+                <h3 className="project-title text-xl font-semibold ">
                   {/* Project Title */}
                   {title}
                 </h3>
-                <h5 className="font-light text-sm text-slate-500">{techStack}</h5>
-                <p className="text-sm text-slate-600">
+                <h5 className="font-light text-sm text-slate-400">{techStack}</h5>
+                <p className="project-summary text-sm">
                   {/* Brief description about the project goes here. Highlight what
                   makes it interesting and the stack you used. */}
                   {summary}
