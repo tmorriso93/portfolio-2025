@@ -18,11 +18,13 @@ const About = () => {
             </div>
             <div className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'>
-                   I&apos;m a Front End Engineer with a background in React and Next.js, experienced in building full-stack applications and polished,
+                   I'm a Front End Engineer with a background in React and Next.js, experienced in building full-stack applications and polished,
                    user-friendly interfaces. In previous roles, I managed and maintained production websites for luxury automotive brands including Porsche,
                    BMW, Land Rover, Jaguar, and Lexus, working closely with marketing and product teams to improve performance and user experience. I care about
-                   clean architecture, maintainable code, and designing interfaces that feel intuitive and modern. Whether collaborating with a team or building 
-                   independently, I&apos;m focused on creating solutions that are reliable, scalable, and enjoyable to use.
+                   clean architecture, maintainable code, and designing interfaces that feel intuitive and modern. Outside of code, I'm fluent in Spanish after
+                   two years of classes that started as weekend lessons and somehow turned into a regular part of my routine. I'm also pretty athletic—boxing
+                   lessons keep me grounded, clear my head, and make shipping features feel a little less like sitting still all day. Whether collaborating with
+                   a team or building independently, I'm focused on creating solutions that are reliable, scalable, and enjoyable to use.
                 </p>
             </div>
         </div>
