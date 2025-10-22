@@ -31,7 +31,7 @@ const Projects = () => {
     {
       title: "Letterwize",
       techStack: "Techstack: ReactJs, NextJs, TailwindCSS, MongoDb, Clerk Auth, Clerk Billing, AI/LLM - Google Gemini API",
-      summary: "Letterwize is a full-stack AI resume builder and my first SaaS product. Built with Next.js and powered by Google&apos;s Gemini API, it helps users quickly generate professional, customized resumes. Clerk handles authentication, user accounts, and the monthly subscription model. Users can create, save, edit, and manage all of their resumes in one clean, modern interface.",
+      summary: "Letterwize is a full-stack AI resume builder and my first SaaS product. Built with Next.js and powered by Google's Gemini API, it helps users quickly generate professional, customized resumes. Clerk handles authentication, user accounts, and the monthly subscription model. Users can create, save, edit, and manage all of their resumes in one clean, modern interface.",
       image: assets.letterwize,
       actions: [
         { 
