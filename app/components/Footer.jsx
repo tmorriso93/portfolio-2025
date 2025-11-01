@@ -26,7 +26,7 @@ const footerLinks = [
       },
       {
         label: "Email",
-        href: "mailto:tmorrisjobs@mailbeaver.net",
+        href: "mailto:tmorrisojobs@mailthink.net",
         target: "_blank",
       },
     ],
