@@ -11,6 +11,7 @@ const Skills = () => {
     { label: "TailwindCSS", icon: assets.tailwind_icon },
     { label: "ReactJs", icon: assets.react_logo },
     { label: "NextJs", icon: assets.nextjs_logo },
+    { label: "NodeJs", icon: assets.nodejs_logo },
     { label: "MongoDb", icon: assets.mongoDb_icon },
     { label: "Shopify", icon: assets.shopify_icon },
     { label: "WordPress", icon: assets.wordpress_icon },

@@ -35,6 +35,8 @@ import github_icon from './../assets/githubicon.png';
 import letterwize from './../assets/letterwize.png';
 import skyMarkProperties from './../assets/skyMarkProperties.png';
 import wordpilot from './../assets/wordpilot.png';
+import nodeJs from './../assets/nodejs-icon.svg';
+
 
 
 
@@ -74,6 +76,7 @@ export const assets = {
     letterwize,
     skyMarkProperties,
     wordpilot,
+    nodeJs,
 }; 
 
 // work data
