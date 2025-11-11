@@ -23,8 +23,8 @@ const Header = () => {
             </h1>
             <h3 className='font-Ovo text-2xl'> based in Toronto.</h3>
             <p className='max-w-2xl mx-auto font-Ovo'>
-              I build web apps that put user experience first, without overcomplicating the tech. I enjoy shaping early ideas into usable, 
-              intuitive interfaces that feel natural to interact with. Watching a concept grow into a polished, working product never gets old.
+             I turn ideas into simple, scalable web experiences that put the user first. I care about performance, clean code,
+            and making every interaction feel natural — using Next.js, React, and modern JavaScript frameworks.
             </p>
             <div className='buttons flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <a href='#contact'
