@@ -35,7 +35,7 @@ const Projects = () => {
       image: assets.letterwize,
       actions: [
         { 
-            href: "https://letter-wize.vercel.app",
+            href: "https://www.letterwize.com",
             target: "_blank",
             label: "Website",
             icon: assets.url_icon,
