@@ -81,7 +81,7 @@ const Projects = () => {
         {/* Title + Subtitle */}
         <div className="text-center">
           <h4 className="mb-2 text-lg font-Ovo">
-            Learning by building — one project at a time
+            Learning by building — one project at a time.
           </h4>
           <h2 className="py-2 text-5xl font-Ovo">Projects</h2>
         </div>
